@@ -36,4 +36,92 @@
             </div>
     </header>   
 </body>
-</html>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavora | Epicode</title>
+</head>
+<style>
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: antiquewhite;
+    }
+    .titolo{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    }
+    td, th{
+    padding: 8px;
+    }
+    .specialp{
+        text-align: left;
+    }
+    .tabellavideo{
+        display: inline-grid;
+    }
+    button{
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    }
+</style>
+<body>
+    <header>
+    <div class="titolo">
+    <a href="index.html"><img src="./assets/logo.svg"></a>
+    <hr>
+    <h1>Epicode - Il blog dei Developers</h1>
+    </div>
+    <div class="menù-navigazione" align="center">
+        <table>
+        <tr>
+            <th><a href="index.html">Homepage</a></th>
+            <th><a href="index.html">Articoli</a></th>
+            <th><a href="Lavoracon.html">Lavora con noi</a></th>
+        </tr>
+        </table>
+        </div>
+</header>
+<hr>
+<main class="main" align="center">
+    <h2>Lavora con noi</h2>
+    <h3>Compila il form per candidarti!</h3>
+    <hr>
+    <div class="form">
+        <form onsubmit="alert('Candidatura ricevuta')">
+        <h4>Inserisci il tuo nome</h4>
+        <input type="text" placeholder="Nome" required>
+        <h4>Inserisci il tuo cognome</h4>
+        <input type="text" placeholder="Cognome" required>
+        <h4>Inserisci la tua data di nascita</h4>
+        <input type="date" placeholder="Data di nascita" required>
+        <h4>Inserisci la tua email</h4>
+        <input type="email" placeholder="Email" required>
+        <h4>Inserisci il tuo CV</h4>
+        <input type="file" placeholder="CV" required>
+        <br>
+        <br>
+        <button type="submit">Invia i dati</button>
+        </form>
+    </div>
+</main>
+<hr>
+<footer class="footer" align="center">
+    <form onsubmit="alert ('Iscrizione completata')">
+        <h3>Iscriviti alla Newsletter</h3>
+        <input type="email" placeholder="Inserisci la tua email">
+        <br>
+        <br>
+        <button type="submit">Iscriviti</button>
+        <p align="center">Copyright Lorenzo Martegiani</p>
+    </form>
+</footer>
